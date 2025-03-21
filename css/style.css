@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:   #111921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    width: 900px;
+    padding: 30px;
+    background: linear-gradient(to right, #111921, #f000);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Flex content to display logo and info side by side */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo styling */
+.logo img {
+    width: 180px;
+    height: auto;
+    margin-right: 30px;
+}
+
+/* Info section */
+.info {
+    max-width: 500px;
+    text-align: left;
+}
+
+.info h1 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: whitesmoke;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .info {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
